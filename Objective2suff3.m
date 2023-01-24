@@ -18,7 +18,7 @@
 
 %% zeros before poles
 %q=9*rand(6,1);
-%z=q+(max(p)+1);
+%z=min(p)*rand(6,1);;
 %G_1{j}=2*(p(1)*p(2)*p(3)*p(4)*p(5)*p(6)*p(7)*p(8))/(z(1)*z(2)*z(3)*z(4)*z(5)*z(6))*((s+z(6))*(s+z(1))*(s+z(2))*(s+z(3))*(s+z(4))*(s+z(5)))/((s+p(1))*(s+p(2))*(s+p(3))*(s+p(4))*(s+p(5))*(s+p(6))*(s+p(7))*(s+p(8)));
 
 %%  zero pole alternative position starting with pole
